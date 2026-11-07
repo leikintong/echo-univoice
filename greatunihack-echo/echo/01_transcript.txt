@@ -1,0 +1,22 @@
+Echo demo transcript: Introduction to Statistics, Lecture 3 "Measuring Spread"
+Lecturer: Dr Harper (fictional). Approx. 3 minutes. Timestamps mm:ss.
+
+[00:00] Right, let's crack on. Last week we did the mean, and I said the mean is a bit of a blunt instrument. Today we look at spread, how far the data wanders from the centre.
+
+[00:15] Picture two classes. Both average sixty-five percent. In Class A everyone scored between sixty and seventy. In Class B, scores go from twenty all the way up to a hundred. Same mean, completely different story.
+
+[00:32] The quickest measure is the range: max minus min. It's a ballpark figure, handy on the back of an envelope, but one outlier and it goes out the window.
+
+[00:48] So we want something that uses every data point. Enter the variance. For each observation x i, we take the deviation from the sample mean, x bar, square it, add them all up, and divide by n minus one.
+
+[01:08] Now, why n minus one and not n? This is Bessel's correction. Because we estimate x bar from the same sample, we lose one degree of freedom, and dividing by n would systematically underestimate the population variance. Dividing by n minus one makes it an unbiased estimator.
+
+[01:30] If that went a bit over your head, don't panic, it's bread and butter for next week's lecture on estimators.
+
+[01:40] Problem with variance: the units are squared. If your data's in pounds, variance is in pounds squared, which nobody can interpret. So we take the square root and get the standard deviation, back in the original units.
+
+[01:58] Quick example. Scores four, six, eight. Mean is six. Deviations are minus two, zero, plus two. Square them, four, zero, four, sum is eight. Divide by n minus one, that's two, variance is four, standard deviation is two.
+
+[02:20] Rule of thumb: for roughly normal data, about sixty-eight percent of observations fall within one standard deviation of the mean. That's the empirical rule, and we'll lean on it heavily when we get to confidence intervals.
+
+[02:40] Right, that's the gist. For the problem sheet, have a crack at questions one to four before Thursday's tutorial. Cheers, everyone.
